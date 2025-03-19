@@ -40,17 +40,51 @@ Below is a list of models currently included (or planned) in this repository. Fo
   - 📄 [Paper](https://arxiv.org/abs/1906.00121)  
   - 💻 [Source Code](https://github.com/nnzhan/Graph-WaveNet)  
 
+- **T-GCN** (Temporal Graph Convolutional Network)  
+  An early spatio-temporal GNN model combining GCN and GRU to capture spatial and temporal dependencies in traffic flow.  
+  - 📄 [Paper](https://arxiv.org/abs/1811.05320)  
+  - 💻 [Source Code](https://github.com/lehaifeng/T-GCN)  
+
+- **AGCRN** (Adaptive Graph Convolutional Recurrent Network)  
+  A model proposing an adaptive graph structure learning framework, combining GCN and RNN, suitable for dynamic traffic networks.  
+  - 📄 [Paper](https://arxiv.org/abs/2007.02842)  
+  - 💻 [Source Code](https://github.com/LeiBAI/AGCRN)  
+
 ### Planned Additions (Newer Models)
 We are actively working on integrating more recent and advanced models, such as:
+
 - **STSGCN** (Spatial-Temporal Synchronous Graph Convolutional Networks)  
   - 📄 [Paper](https://arxiv.org/abs/1906.06971)  
   - 💻 [Source Code](https://github.com/Davidham3/STSGCN)  
+
 - **MTGNN** (Multivariate Time-series Graph Neural Networks)  
   - 📄 [Paper](https://arxiv.org/abs/2004.02038)  
   - 💻 [Source Code](https://github.com/nnzhan/MTGNN)  
+
 - **DGCRN** (Dynamic Graph Convolutional Recurrent Network)  
   - 📄 [Paper](https://arxiv.org/abs/2104.14917)  
   - 💻 [Source Code](https://github.com/tsinghua-fib-lab/DGCRN)  
+
+- **GTS** (Graph Traffic Speed Prediction)  
+  A model utilizing GCN and attention mechanisms to capture complex spatio-temporal patterns in traffic speed prediction.  
+  - 📄 [Paper](https://arxiv.org/abs/2001.06874)  
+  - 💻 [Source Code](https://github.com/hkbu-libra/GTS)  
+
+- **STGODE** (Spatio-Temporal Graph Ordinary Differential Equation)  
+  A model leveraging graph ordinary differential equations (ODE) to model continuous spatio-temporal dynamics in traffic flow.  
+  - 📄 [Paper](https://arxiv.org/abs/2108.04040)  
+  - 💻 [Source Code](https://github.com/ZhuangWeilin/STGODE)  
+
+- **STFGNN** (Spatio-Temporal Fusion Graph Neural Network)  
+  A model fusing multi-scale spatio-temporal features for complex traffic flow prediction tasks.  
+  - 📄 [Paper](https://arxiv.org/abs/2103.16160)  
+  - 💻 [Source Code](https://github.com/KB5201314/STFGNN)  
+
+- **PDFormer** (Patch-based Dual-Former)  
+  A model combining Transformer and GCN, modeling spatio-temporal dependencies through patch-based techniques.  
+  - 📄 [Paper](https://arxiv.org/abs/2205.13982)  
+  - 💻 [Source Code](https://github.com/BUAABIGSCity/PDFormer)  
+
 - ... and more!
 
 If you have suggestions for additional models to include, feel free to open an issue or submit a pull request!
@@ -69,10 +103,6 @@ To run the models in this repository, you will need the following dependencies:
    ```bash
    git clone https://github.com/AIcharon-stt/Traffic-prediction-models-GNN.git
    cd TrafficFlowGNNHub
-
-### Usage
-Detailed instructions for running each model, including dataset preparation, training, and evaluation, will be provided in the respective model directories. Stay tuned for updates!
-
 ---
 
 ## Repository Structure
