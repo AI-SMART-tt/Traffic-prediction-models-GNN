@@ -13,28 +13,44 @@ Traffic flow prediction is a critical task in intelligent transportation systems
 
 ## Models Included
 
-Below is a list of models currently included (or planned) in this repository:
+Below is a list of models currently included (or planned) in this repository. For each model, we provide links to the original paper and the authors' official source code (if available):
 
 - **STGCN** (Spatio-Temporal Graph Convolutional Networks)  
-  A pioneering model combining graph convolutions and temporal convolutions for traffic prediction.
-  
+  A pioneering model combining graph convolutions and temporal convolutions for traffic prediction.  
+  - 📄 [Paper](https://arxiv.org/abs/1709.04875)  
+  - 💻 [Source Code](https://github.com/VeritasYin/STGCN_IJCAI-18)  
+
 - **DCRNN** (Diffusion Convolutional Recurrent Neural Network)  
-  A model leveraging diffusion processes on graphs to capture spatial dependencies, integrated with recurrent neural networks for temporal modeling.
-  
+  A model leveraging diffusion processes on graphs to capture spatial dependencies, integrated with recurrent neural networks for temporal modeling.  
+  - 📄 [Paper](https://arxiv.org/abs/1707.01926)  
+  - 💻 [Source Code](https://github.com/liyaguang/DCRNN)  
+
 - **ASTGCN** (Attention-based Spatio-Temporal Graph Convolutional Networks)  
-  A model incorporating spatial and temporal attention mechanisms to enhance prediction performance.
-  
+  A model incorporating spatial and temporal attention mechanisms to enhance prediction performance.  
+  - 📄 [Paper](https://arxiv.org/abs/1806.01286)  
+  - 💻 [Source Code](https://github.com/guoshnBJTU/ASTGCN-r-pytorch)  
+
 - **GMAN** (Graph Multi-Attention Network)  
-  A model utilizing multiple attention layers to capture complex spatio-temporal relationships in traffic data.
-  
+  A model utilizing multiple attention layers to capture complex spatio-temporal relationships in traffic data.  
+  - 📄 [Paper](https://arxiv.org/abs/1910.03033)  
+  - 💻 [Source Code](https://github.com/zhengchuanpan/GMAN)  
+
 - **Graph-WaveNet**  
-  A model combining graph convolutions with dilated causal convolutions to model long-term temporal dependencies.
+  A model combining graph convolutions with dilated causal convolutions to model long-term temporal dependencies.  
+  - 📄 [Paper](https://arxiv.org/abs/1906.00121)  
+  - 💻 [Source Code](https://github.com/nnzhan/Graph-WaveNet)  
 
 ### Planned Additions (Newer Models)
 We are actively working on integrating more recent and advanced models, such as:
 - **STSGCN** (Spatial-Temporal Synchronous Graph Convolutional Networks)  
+  - 📄 [Paper](https://arxiv.org/abs/1906.06971)  
+  - 💻 [Source Code](https://github.com/Davidham3/STSGCN)  
 - **MTGNN** (Multivariate Time-series Graph Neural Networks)  
+  - 📄 [Paper](https://arxiv.org/abs/2004.02038)  
+  - 💻 [Source Code](https://github.com/nnzhan/MTGNN)  
 - **DGCRN** (Dynamic Graph Convolutional Recurrent Network)  
+  - 📄 [Paper](https://arxiv.org/abs/2104.14917)  
+  - 💻 [Source Code](https://github.com/tsinghua-fib-lab/DGCRN)  
 - ... and more!
 
 If you have suggestions for additional models to include, feel free to open an issue or submit a pull request!
@@ -46,14 +62,13 @@ If you have suggestions for additional models to include, feel free to open an i
 ### Prerequisites
 To run the models in this repository, you will need the following dependencies:
 - Python
-- PyTorch/Tensorflow
+- PyTorch/TensorFlow
 - NumPy, Pandas, SciPy, etc. 
 
 ### Clone the repository:
    ```bash
    git clone https://github.com/AIcharon-stt/Traffic-prediction-models-GNN.git
    cd TrafficFlowGNNHub
-   ```
 
 ### Usage
 Detailed instructions for running each model, including dataset preparation, training, and evaluation, will be provided in the respective model directories. Stay tuned for updates!
