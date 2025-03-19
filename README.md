@@ -35,6 +35,10 @@ Below is a list of models currently included (or planned) in this repository:
   [Paper](https://arxiv.org/abs/1906.00121) | [Original Code](https://github.com/nnzhan/Graph-WaveNet)  
   A model combining graph convolutions with dilated causal convolutions to model long-term temporal dependencies.
 
+
+### Planned Additions (Newer Models)
+We are actively working on integrating more recent and advanced models, such as:
+
 - **AGCRN** (Adaptive Graph Convolutional Recurrent Network)  
   [Paper](https://arxiv.org/abs/2007.02842) | [Original Code](https://github.com/LeiBAI/AGCRN)  
   A model that simultaneously learns the graph structure and spatio-temporal dependencies with node-adaptive parameters.
@@ -54,9 +58,6 @@ Below is a list of models currently included (or planned) in this repository:
 - **STFGNN** (Spatial-Temporal Fusion Graph Neural Networks)  
   [Paper](https://arxiv.org/abs/2012.09641) | [Original Code](https://github.com/MengzhangLI/STFGNN)  
   A model that explicitly models the fusion of spatial and temporal relations through a novel graph structure.
-
-### Planned Additions (Newer Models)
-We are actively working on integrating more recent and advanced models, such as:
 
 - **STGNCDE** (Spatio-Temporal Graph Neural Controlled Differential Equations)  
   [Paper](https://arxiv.org/abs/2106.10636) | [Original Code](https://github.com/jeongwhanchoi/STG-NCDE)  
