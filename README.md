@@ -51,7 +51,7 @@ To run the models in this repository, you will need the following dependencies:
 
 ### Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/TrafficFlowGNNHub.git
+   git clone https://github.com/AIcharon-stt/Traffic-prediction-models-GNN.git
    cd TrafficFlowGNNHub
    ```
 
@@ -88,7 +88,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-For questions, suggestions, or collaborations, please feel free to reach out via email at ttshi3514@163.com or open an issue on GitHub.
+For questions, suggestions, collaborations, or any copyright-related concerns, please feel free to reach out via email at ttshi3514@163.com or open an issue on GitHub.
 
 Happy coding, and enjoy exploring the world of GNN-based traffic flow prediction!
 ```
