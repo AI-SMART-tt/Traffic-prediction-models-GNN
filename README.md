@@ -16,8 +16,7 @@ Traffic flow prediction is a critical task in intelligent transportation systems
 Below is a list of models currently included (or planned) in this repository:
 
 - **STGCN** (Spatio-Temporal Graph Convolutional Networks)  
-  - 📄 [Paper](https://arxiv.org/abs/1709.04875)  
-  - 💻 [Source Code](https://github.com/VeritasYin/STGCN_IJCAI-18)
+  [Paper](https://arxiv.org/abs/1709.04875) | [Original Code](https://github.com/VeritasYin/STGCN_IJCAI-18)  
   A pioneering model combining graph convolutions and temporal convolutions for traffic prediction.
   
 - **DCRNN** (Diffusion Convolutional Recurrent Neural Network)  
@@ -36,6 +35,25 @@ Below is a list of models currently included (or planned) in this repository:
   [Paper](https://arxiv.org/abs/1906.00121) | [Original Code](https://github.com/nnzhan/Graph-WaveNet)  
   A model combining graph convolutions with dilated causal convolutions to model long-term temporal dependencies.
 
+- **AGCRN** (Adaptive Graph Convolutional Recurrent Network)  
+  [Paper](https://arxiv.org/abs/2007.02842) | [Original Code](https://github.com/LeiBAI/AGCRN)  
+  A model that simultaneously learns the graph structure and spatio-temporal dependencies with node-adaptive parameters.
+
+- **MTGNN** (Multivariate Time Series Forecasting with Graph Neural Networks)  
+  [Paper](https://arxiv.org/abs/2005.11650) | [Original Code](https://github.com/nnzhan/MTGNN)  
+  A model that learns a graph structure adaptively while capturing temporal dependencies through dilated convolutions.
+
+- **STSGCN** (Spatial-Temporal Synchronous Graph Convolutional Networks)  
+  [Paper](https://aaai.org/papers/05354-spatial-temporal-synchronous-graph-convolutional-networks-a-new-framework-for-spatial-temporal-network-data-forecasting/) | [Original Code](https://github.com/Davidham3/STSGCN)  
+  A framework that captures localized spatio-temporal correlations through synchronous modeling.
+
+- **D2STGNN** (Decoupled Dynamic Spatial-Temporal Graph Neural Network)  
+  [Paper](https://arxiv.org/abs/2206.09112) | [Original Code](https://github.com/zezhishao/D2STGNN)  
+  A model that decouples spatial and temporal dependencies while considering dynamic spatial correlations.
+
+- **STFGNN** (Spatial-Temporal Fusion Graph Neural Networks)  
+  [Paper](https://arxiv.org/abs/2012.09641) | [Original Code](https://github.com/MengzhangLI/STFGNN)  
+  A model that explicitly models the fusion of spatial and temporal relations through a novel graph structure.
 
 ### Planned Additions (Newer Models)
 We are actively working on integrating more recent and advanced models, such as:
@@ -63,26 +81,6 @@ We are actively working on integrating more recent and advanced models, such as:
 - **STID** (Spatial-Temporal Identity)  
   [Paper](https://arxiv.org/abs/2306.08244) | [Original Code](https://github.com/zezhishao/STID)  
   A lightweight approach that emphasizes spatial and temporal identity embeddings.
-
-  - **AGCRN** (Adaptive Graph Convolutional Recurrent Network)  
-  [Paper](https://arxiv.org/abs/2007.02842) | [Original Code](https://github.com/LeiBAI/AGCRN)  
-  A model that simultaneously learns the graph structure and spatio-temporal dependencies with node-adaptive parameters.
-
-- **MTGNN** (Multivariate Time Series Forecasting with Graph Neural Networks)  
-  [Paper](https://arxiv.org/abs/2005.11650) | [Original Code](https://github.com/nnzhan/MTGNN)  
-  A model that learns a graph structure adaptively while capturing temporal dependencies through dilated convolutions.
-
-- **STSGCN** (Spatial-Temporal Synchronous Graph Convolutional Networks)  
-  [Paper](https://aaai.org/papers/05354-spatial-temporal-synchronous-graph-convolutional-networks-a-new-framework-for-spatial-temporal-network-data-forecasting/) | [Original Code](https://github.com/Davidham3/STSGCN)  
-  A framework that captures localized spatio-temporal correlations through synchronous modeling.
-
-- **D2STGNN** (Decoupled Dynamic Spatial-Temporal Graph Neural Network)  
-  [Paper](https://arxiv.org/abs/2206.09112) | [Original Code](https://github.com/zezhishao/D2STGNN)  
-  A model that decouples spatial and temporal dependencies while considering dynamic spatial correlations.
-
-- **STFGNN** (Spatial-Temporal Fusion Graph Neural Networks)  
-  [Paper](https://arxiv.org/abs/2012.09641) | [Original Code](https://github.com/MengzhangLI/STFGNN)  
-  A model that explicitly models the fusion of spatial and temporal relations through a novel graph structure.
 
 If you have suggestions for additional models to include, feel free to open an issue or submit a pull request!
 
