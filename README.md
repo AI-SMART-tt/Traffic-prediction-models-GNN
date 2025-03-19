@@ -112,14 +112,13 @@ Detailed instructions for running each model, including dataset preparation, tra
 TrafficFlowGNNHub/
 │
 ├── datasets/             # Sample datasets and data preprocessing scripts
-├── models/               # Model implementations
-│   ├── STGCN/            # STGCN model code
-│   ├── DCRNN/            # DCRNN model code
-│   ├── ASTGCN/           # ASTGCN model code
-│   ├── GMAN/             # GMAN model code
-│   ├── Graph-WaveNet/    # Graph-WaveNet model code
-│   ├── Bi-TSENet/    # Bi-TSENet model code
-│   └── ...               # More models to be added
+├── STGCN/            # STGCN model code
+├── DCRNN/            # DCRNN model code
+├── ASTGCN/           # ASTGCN model code
+├── GMAN/             # GMAN model code
+├── Graph-WaveNet/    # Graph-WaveNet model code
+├── Bi-TSENet/    # Bi-TSENet model code
+└── ...               # More models to be added
 ├── utils/                # Utility functions (e.g., data loaders, evaluation metrics)
 ├── docs/                 # Additional documentation
 ├── requirements.txt      # List of dependencies
