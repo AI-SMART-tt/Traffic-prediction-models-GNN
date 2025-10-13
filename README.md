@@ -85,15 +85,15 @@ We are actively working on integrating more recent and advanced models, such as:
 
 - **STDN** (Spatiotemporal-aware Trend-Seasonality Decomposition Network for Traffic Flow Forecasting)  
   [Paper](https://doi.org/10.1609/aaai.v39i11.33247) | [Original Code](https://github.com/roarer008/STDN)  
-  A lightweight approach that emphasizes spatial and temporal identity embeddings.
+  
 
 - **STD-MAE** (Spatial-Temporal-Decoupled Masked Pre-training for Spatiotemporal Forecasting)  
   [Paper](https://doi.org/10.48550/arXiv.2312.00516) | [Original Code]([https://github.com/Jimmy-7664/STD-MAE])  
-  A lightweight approach that emphasizes spatial and temporal identity embeddings.
+ 
 
 - **STPGNN** (Spatio-Temporal Pivotal Graph Neural Networks for Traffic Flow Forecasting)  
   [Paper](https://doi.org/10.1609/aaai.v38i8.28707) | 
-  A lightweight approach that emphasizes spatial and temporal identity embeddings.
+ 
 
 
 If you have suggestions for additional models to include, feel free to open an issue or submit a pull request!
