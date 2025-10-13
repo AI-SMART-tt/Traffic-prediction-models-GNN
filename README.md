@@ -11,7 +11,7 @@ Traffic flow prediction is a critical task in intelligent transportation systems
 
 ---
 
-## Models Included
+## Classic Models
 
 Below is a list of models currently included (or planned) in this repository:
 
@@ -36,7 +36,7 @@ Below is a list of models currently included (or planned) in this repository:
   A model combining graph convolutions with dilated causal convolutions to model long-term temporal dependencies.
 
 
-### Planned Additions (Newer Models)
+### Newer Models
 We are actively working on integrating more recent and advanced models, such as:
 
 - **AGCRN** (Adaptive Graph Convolutional Recurrent Network)  
@@ -81,6 +81,14 @@ We are actively working on integrating more recent and advanced models, such as:
 
 - **STID** (Spatial-Temporal Identity)  
   [Paper](https://arxiv.org/abs/2306.08244) | [Original Code](https://github.com/zezhishao/STID)  
+  A lightweight approach that emphasizes spatial and temporal identity embeddings.
+
+  - **STDN** (Spatiotemporal-aware Trend-Seasonality Decomposition Network for Traffic Flow Forecasting)  
+  [Paper](https://doi.org/10.1609/aaai.v39i11.33247) | [Original Code](https://github.com/roarer008/STDN)  
+  A lightweight approach that emphasizes spatial and temporal identity embeddings.
+
+  - **STDN** (Spatiotemporal-aware Trend-Seasonality Decomposition Network for Traffic Flow Forecasting)  
+  [Paper](https://doi.org/10.48550/arXiv.2312.00516) | [Original Code]([https://github.com/roarer008/STDN](https://github.com/Jimmy-7664/STD-MAE))  
   A lightweight approach that emphasizes spatial and temporal identity embeddings.
 
 If you have suggestions for additional models to include, feel free to open an issue or submit a pull request!
