@@ -88,7 +88,7 @@ We are actively working on integrating more recent and advanced models, such as:
   
 
 - **STD-MAE** (Spatial-Temporal-Decoupled Masked Pre-training for Spatiotemporal Forecasting)  
-  [Paper](https://doi.org/10.48550/arXiv.2312.00516) | [Original Code]([https://github.com/Jimmy-7664/STD-MAE])  
+  [Paper](https://doi.org/10.48550/arXiv.2312.00516) | [Original Code](https://github.com/Jimmy-7664/STD-MAE)  
  
 
 - **STPGNN** (Spatio-Temporal Pivotal Graph Neural Networks for Traffic Flow Forecasting)  
