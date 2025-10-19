@@ -92,7 +92,7 @@ We are actively working on integrating more recent and advanced models, such as:
  
 
 - **STPGNN** (Spatio-Temporal Pivotal Graph Neural Networks for Traffic Flow Forecasting)  
-  [Paper](https://doi.org/10.1609/aaai.v38i8.28707) | 
+  [Paper](https://doi.org/10.1609/aaai.v38i8.28707) | [Original Code]([https://github.com/Jimmy-7664/STD-MAE](https://github.com/Kongwy5689/STPGNN))
  
 
 
